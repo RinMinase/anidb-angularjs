@@ -23,7 +23,7 @@
     "setup-testing": "node src/assets/testing/nightwatch.conf.js"
   },
   "dependencies": {
-    "@uirouter/angularjs": "^1.0.21",
+    "@uirouter/angularjs": "^1.0.22",
     "angular": "1.7.6",
     "angular-animate": "^1.7.6",
     "angular-chart.js": "^1.1.1",
