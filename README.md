@@ -104,8 +104,8 @@ Task automation is based on [Gulp tasks](https://gulpjs.com/), [Yarn scripts](ht
 | ------------------------------------- | ----------------------------------------------------------------------------------------------------- |
 | `gulp serve` or `yarn start`          | Run **development server** on `http://localhost:3000/` with file watching on changes                  |
 | `gulp serve:dist` or `yarn run build` | Run **test server** on `http://localhost:3000/`                                                       |
-| `gulp build` or `gulp`                |                                                                                                    
-| `yarn test <args>`                    |                                                                                                       |   |
+| `gulp build` or `gulp`                |                                                                                                       |
+| `yarn test <args>`                    |                                                                                                       |
 | `yarn run bundle`                     |                                                                                                       |
 | `yarn run deploy`                     |                                                                                                       |
 | `yarn run setup`                      |                                                                                                       |
