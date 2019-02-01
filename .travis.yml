@@ -6,6 +6,7 @@ sudo: false
 branches:
   only:
   - master
+	- ngx
 cache:
   yarn: true
   directories:
