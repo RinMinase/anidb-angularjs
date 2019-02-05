@@ -1,6 +1,6 @@
 import extend from "lodash/extend";
 import Fuse from "fuse.js";
-import moment from "moment";
+import moment from "moment-mini";
 
 import addHomeDOM from "../add/add-home.html";
 

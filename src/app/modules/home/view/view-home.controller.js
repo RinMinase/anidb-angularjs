@@ -1,5 +1,5 @@
 import extend from "lodash/extend";
-import moment from "moment";
+import moment from "moment-mini";
 
 import updateHomeDOM from "../update/update-home.html";
 import viewRewatchHomeDOM from "./rewatch/view-rewatch-home.html";

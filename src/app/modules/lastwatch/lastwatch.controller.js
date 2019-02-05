@@ -1,5 +1,5 @@
 import extend from "lodash/extend";
-import moment from "moment";
+import moment from "moment-mini";
 
 export class LastWatchController {
 	constructor(
