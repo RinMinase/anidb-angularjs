@@ -122,7 +122,7 @@ _Add info here_
 * <img width=20 height=20 src="https://getbootstrap.com/favicon.ico"> [Bootstrap 4](https://getbootstrap.com/) - HTML Framework (layout)
 * <img width=20 height=20 src="https://firebase.google.com/favicon.ico"> [Firebase](https://firebase.google.com/) - Database
 * <img width=20 height=20 src="https://gulpjs.com/img/favicon.png"> [Gulp 4](https://gulpjs.com/) - Task runner
-* <img width=20 height=20 src="https://webpack.js.org/assets/favicon.ico"> [Webpack 4](https://webpack.js.org/) - Project bundler
+* <img width=20 height=20 src="https://webpack.js.org/bc3effb418df77da9e04825c48a58a49.ico"> [Webpack 4](https://webpack.js.org/) - Project bundler
 * <img width=20 height=20 src="https://cordova.apache.org/favicon.ico"> [Cordova](https://cordova.apache.org/) - Android APK bundler
 * <img width=20 height=20 src="http://nightwatchjs.org/favicon.ico"> [NightwatchJS](http://nightwatchjs.org/) - Testing Framework
 * <img width=20 height=20 src="https://travis-ci.org/images/favicon.png"> [Travis CI](https://travis-ci.org/) - Continuous Integration (CI) service
