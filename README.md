@@ -30,7 +30,7 @@
         <img alt="Node" src="https://img.shields.io/badge/node-%5E6.14.0%20%7C%7C%20%5E8.10.0%20%7C%7C%20%3E%3D9.10.0-green.svg?logo=node.js&logoColor=white">
     </a>
     <a href="https://yarnpkg.com/">
-        <img alt="Yarn" src="https://img.shields.io/badge/yarn-1.13.0-blue.svg">
+        <img alt="Yarn" src="https://img.shields.io/badge/yarn-%5E1.10.0-blue.svg">
     </a>
 </p>
 
