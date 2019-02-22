@@ -46,35 +46,37 @@ _Add info here_
 
 #### Directory Structure
     .
-    ├── .tmp                          # Local development server 
-    ├── dist                          # Local production server
-    ├── src                           # Project source code
-    │   ├── app                       # Project components
-    │   │   ├── core                  # System-wide components
-    │   │   │   ├── constants         # Project constants
-    │   │   │   ├── directives        # Project directives
-    │   │   │   └── services          # Project services
-    │   │   │       └── builders      # Project builders
-    │   │   ├── modules               # Project modules
+    ├── .circleci/                    # Circle CI folder
+    │   └── config.yml                # Circle CI configuration file
+    ├── .tmp/                         # Local development server 
+    ├── dist/                         # Local production server
+    ├── src/                          # Project source code
+    │   ├── app/                      # Project components
+    │   │   ├── core/                 # System-wide components
+    │   │   │   ├── constants/        # Project constants
+    │   │   │   ├── directives/       # Project directives
+    │   │   │   └── services/         # Project services
+    │   │   │       └── builders/     # Project builders
+    │   │   ├── modules/              # Project modules
     │   │   │   └── <module-name>     # Module folder (refer to structure below)
     │   │   ├── index.config.js       # Configuration file for main module
     │   │   └── index.module.js       # Main module
-    │   ├── assets                    # Project assets
-    │   │   ├── firebase              # Firebase configurations
-    │   │   ├── gulp                  # Gulp files
-    │   │   ├── styles                # Stylesheet folder 
-    │   │   │   └── chunks            # Stylesheet modules
-    │   │   ├── testing               # Testing asets
-    │   │   │   └── tests             # Unit tests
+    │   ├── assets/                   # Project assets
+    │   │   ├── firebase/             # Firebase configurations
+    │   │   ├── gulp/                 # Gulp files
+    │   │   ├── styles/               # Stylesheet folder 
+    │   │   │   └── chunks/           # Stylesheet modules
+    │   │   ├── testing/              # Testing asets
+    │   │   │   └── tests/            # Unit tests
     │   │   ├── .env                  # Environment variables
     │   │   ├── .env.example          # Environment variables template
     │   │   ├── favicon.ico           # Wepage icon
     │   │   └── robots.txt            # Robots file
-    │   ├── res                       # Cordova resources folder
-    │   │   └── android               # Android resources
-    │   │       ├── hooks             # Android build hooks
-    │   │       ├── icon              # Android icons
-    │   │       └── screen            # Android splash screens
+    │   ├── res/                      # Cordova resources folder
+    │   │   └── android/              # Android resources
+    │   │       ├── hooks/            # Android build hooks
+    │   │       ├── icon/             # Android icons
+    │   │       └── screen/           # Android splash screens
     │   └── index.html                # Main HTML file
     ├── .editorconfig                 # IDE / Editor configuration
     ├── .eslintrc                     # JS linting configuration
