@@ -1,30 +1,11 @@
-<h1 align="center"> Rin Minase's Anime Database </h1>
+<h1 align="center"> Rin Minase's Anime Database (Angular JS) </h1>
 
 <p align="center">
-    <a href="https://circleci.com/gh/RinMinase/anidb/tree/master">
-        <img alt="Circle-CI" src="https://img.shields.io/circleci/project/github/RinMinase/anidb/master.svg?label=production&logo=circleci">
+    <a href="https://david-dm.org/RinMinase/anidb-angularjs">
+        <img alt="David-DM" src="https://david-dm.org/RinMinase/anidb-angularjs.svg">
     </a>
-    <a href="https://circleci.com/gh/RinMinase/anidb/tree/ngx">
-        <img alt="Circle-CI" src="https://img.shields.io/circleci/project/github/RinMinase/anidb/ngx.svg?label=staging&logo=circleci">
-    </a>
-</p>
-<p align="center">
-    <a href="https://circleci.com/gh/RinMinase/anidb/tree/master">
-        <img alt="Circle-CI" src="https://img.shields.io/circleci/project/github/RinMinase/anidb/master.svg?logo=circleci">
-    </a>
-    <a href="https://david-dm.org/RinMinase/anidb">
-        <img alt="David-DM" src="https://david-dm.org/RinMinase/anidb.svg">
-    </a>
-    <a href="https://david-dm.org/RinMinase/anidb">
-        <img alt="David-DM" src="https://david-dm.org/RinMinase/anidb/dev-status.svg">
-    </a>
-</p>
-<p align="center">
-    <a href="http://isitmaintained.com/project/RinMinase/anidb">
-        <img alt="Issue Resolution" src="http://isitmaintained.com/badge/resolution/RinMinase/anidb.svg">
-    </a>
-    <a href="http://isitmaintained.com/project/RinMinase/anidb">
-        <img alt="Open Issues" src="http://isitmaintained.com/badge/open/RinMinase/anidb.svg">
+    <a href="https://david-dm.org/RinMinase/anidb-angularjs">
+        <img alt="David-DM" src="https://david-dm.org/RinMinase/anidb-angularjs/dev-status.svg">
     </a>
     <a href="https://nodejs.org">
         <img alt="Node" src="https://img.shields.io/badge/node-%5E6.14.0%20%7C%7C%20%5E8.10.0%20%7C%7C%20%3E%3D9.10.0-green.svg?logo=node.js&logoColor=white">
