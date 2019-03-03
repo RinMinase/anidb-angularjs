@@ -25,6 +25,8 @@
     "setup-testing": "node src/assets/testing/nightwatch.conf.js"
   },
   "dependencies": {
+    "@firebase/app-types": "0.3.5",
+    "@firebase/util": "0.2.8",
     "@uirouter/angularjs": "^1.0.22",
     "angular": "1.7.7",
     "angular-animate": "^1.7.7",
@@ -35,7 +37,7 @@
     "awesome-bootstrap-checkbox": "^1.0.1",
     "bluebird": "^3.5.3",
     "bootstrap": "^4.3.1",
-    "firebase": "^5.8.4",
+    "firebase": "^5.8.5",
     "font-awesome": "^4.7.0",
     "fuse.js": "^3.4.2",
     "lodash": "^4.17.11",
