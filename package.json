@@ -50,7 +50,7 @@
     "@babel/core": "^7.4.3",
     "@babel/preset-env": "^7.4.3",
     "babel-loader": "8.0.5",
-    "browser-sync": "^2.26.3",
+    "browser-sync": "^2.26.5",
     "browser-sync-spa": "^1.0.3",
     "chromedriver": "^73.0.0",
     "cordova-android": "^8.0.0",
