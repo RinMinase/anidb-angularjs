@@ -44,7 +44,7 @@
     "roboto-fontface": "^0.10.0",
     "ui-bootstrap4": "^3.0.6",
     "velocity-animate": "^1.5.2",
-    "xlsx": "^0.14.2"
+    "xlsx": "^0.14.3"
   },
   "devDependencies": {
     "@babel/core": "^7.4.4",
