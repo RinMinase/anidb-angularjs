@@ -81,7 +81,7 @@
     "nightwatch": "^1.1.11",
     "undertaker-forward-reference": "^1.0.2",
     "vinyl-paths": "^2.1.0",
-    "webpack": "^4.31.0",
+    "webpack": "^4.32.2",
     "webpack-stream": "^5.2.1"
   },
   "resolutions": {
