@@ -10434,12 +10434,12 @@ vinyl-fs@^3.0.0, vinyl-fs@^3.0.3:
     vinyl "^2.0.0"
     vinyl-sourcemap "^1.1.0"
 
-vinyl-paths@^2.1.0:
-  version "2.1.0"
-  resolved "https://registry.yarnpkg.com/vinyl-paths/-/vinyl-paths-2.1.0.tgz#00820437cba38262cef8802d840f93e3392ee44b"
-  integrity sha1-AIIEN8ujgmLO+IAthA+T4zku5Es=
+vinyl-paths@^3.0.0:
+  version "3.0.0"
+  resolved "https://registry.yarnpkg.com/vinyl-paths/-/vinyl-paths-3.0.0.tgz#ccb41231c7a5e01e66e255d77c399b0dffc65892"
+  integrity sha512-8UiUPcZopECG0Ld10GAmNTH0BrSrtPWCxhNKn81/0XDGau+TWyjZ70+ZZN2SzG4Z539uZWF2xAtunJTNEff7dw==
   dependencies:
-    through2 "^2.0.0"
+    through2 "^3.0.1"
 
 vinyl-sourcemap@^1.1.0:
   version "1.1.0"
