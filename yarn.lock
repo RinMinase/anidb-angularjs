@@ -7095,10 +7095,10 @@ ng-annotate-loader@^0.6.1:
     normalize-path "2.0.1"
     source-map "0.5.6"
 
-ng-annotate-patched@^1.9.0:
-  version "1.9.0"
-  resolved "https://registry.yarnpkg.com/ng-annotate-patched/-/ng-annotate-patched-1.9.0.tgz#2574431fff2bc870d1b6280852bb2d0a481bf74c"
-  integrity sha512-DdJJFDRgf5bdyCi5oJi3JxqIrmvgJikf+myLKBStrIA+ZR8HX0iEkegrQPMa8DzjFn8Z5Cs1xGqY3Y07vmd+2A==
+ng-annotate-patched@^1.10.0:
+  version "1.10.0"
+  resolved "https://registry.yarnpkg.com/ng-annotate-patched/-/ng-annotate-patched-1.10.0.tgz#127c73bec4ab79a66e31920fec378a694102d8b3"
+  integrity sha512-R0mcergG/aYSVF0sag7uFN2Mn+E9RZc3nfU+uB/aYmySreeya33Tx5/u2PuKjHt8Q8Kg+6duZVyJzrEtJHawEA==
   dependencies:
     acorn "^6.0.5"
     acorn-dynamic-import "^4.0.0"
