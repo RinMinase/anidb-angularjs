@@ -2,14 +2,13 @@ const { task, src, dest, series } = require("gulp");
 const conf = require("../../../gulpfile.js");
 
 const angularTemplatecache = require("gulp-angular-templatecache");
-const del = require("del");
+const clean = require("gulp-clean");
 const filter = require("gulp-filter");
 const htmlmin = require("gulp-htmlmin");
 const inject = require("gulp-inject");
 const rev = require("gulp-rev");
 const revReplace = require("gulp-rev-replace");
 const useref = require("gulp-useref");
-const vinylPaths = require("vinyl-paths");
 
 const htmlminOptions = {
 	removeComments: true,
@@ -45,7 +44,7 @@ task("html", () => {
 		.pipe(dest(`${conf.paths.dist}/`))
 		.on("end", () =>
 			src(`${conf.paths.dist}/index.html`)
-				.pipe(vinylPaths(del))
+				.pipe(clean())
 				.pipe(htmlmin(htmlminOptions))
 				.pipe(dest(`${conf.paths.dist}/`))
 				.on("end", series("clean:tmp"))

@@ -2,10 +2,9 @@ const { task, series, src, dest } = require("gulp");
 const conf = require("../../../gulpfile.js");
 
 const browserSync = require("browser-sync");
-const del = require("del");
+const clean = require("gulp-clean");
 const inject = require("gulp-inject");
 const injectString = require("gulp-inject-string");
-const vinylPaths = require("vinyl-paths");
 
 task("inject-reload", series("inject", "inject-base", function reload(done) {
 	browserSync.reload();
@@ -39,13 +38,13 @@ task("inject", () => {
 task("inject-base", () =>
 	src(`${conf.paths.tmp}/serve/index.html`)
 		.pipe(injectString.after("<head>", "<base href=\"/\">"))
-		.pipe(vinylPaths(del))
+		.pipe(clean())
 		.pipe(dest(`${conf.paths.tmp}/serve`))
 );
 
 task("inject-base:bundle", () =>
 	src(`${conf.paths.tmp}/serve/index.html`)
 		.pipe(injectString.after("<head>", "<base href='./'>"))
-		.pipe(vinylPaths(del))
+		.pipe(clean())
 		.pipe(dest(`${conf.paths.tmp}/serve`))
 );
