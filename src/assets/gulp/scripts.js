@@ -15,13 +15,7 @@ function webpackWrapper(watch, callback) {
 				test: /^(?!.*\.test\.js$).*\.js$/,
 				enforce: "pre",
 				exclude: /node_modules/,
-				use: [{
-					loader: "eslint-loader",
-					options: {
-						// eslint-disable-next-line global-require
-						formatter: require("eslint/lib/cli-engine/formatters/stylish"),
-					},
-				}],
+				loader: "eslint-loader",
 			}, {
 				test: /\.html$/,
 				exclude: /node_modules/,
