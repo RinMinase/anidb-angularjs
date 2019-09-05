@@ -1092,11 +1092,6 @@ accepts@~1.3.4, accepts@~1.3.5, accepts@~1.3.7:
     mime-types "~2.1.24"
     negotiator "0.6.2"
 
-acorn-dynamic-import@^4.0.0:
-  version "4.0.0"
-  resolved "https://registry.yarnpkg.com/acorn-dynamic-import/-/acorn-dynamic-import-4.0.0.tgz#482210140582a36b83c3e342e1cfebcaa9240948"
-  integrity sha512-d3OEjQV4ROpoflsnUA8HozoIR504TFxNivYEUi6uwz0IYhBkTDXGuWlNdMtybRt3nqVx/L6XqMt0FxkXuWKZhw==
-
 acorn-jsx@^3.0.0:
   version "3.0.1"
   resolved "https://registry.yarnpkg.com/acorn-jsx/-/acorn-jsx-3.0.1.tgz#afdf9488fb1ecefc8348f6fb22f464e32a58b36b"
@@ -1109,10 +1104,10 @@ acorn-jsx@^5.0.2:
   resolved "https://registry.yarnpkg.com/acorn-jsx/-/acorn-jsx-5.0.2.tgz#84b68ea44b373c4f8686023a551f61a21b7c4a4f"
   integrity sha512-tiNTrP1MP0QrChmD2DdupCr6HWSFeKVw5d/dHTu4Y7rkAkRhU/Dt7dphAfIUyxtHpl/eBVip5uTNSpQJHylpAw==
 
-acorn-walk@^6.1.1:
-  version "6.2.0"
-  resolved "https://registry.yarnpkg.com/acorn-walk/-/acorn-walk-6.2.0.tgz#123cb8f3b84c2171f1f7fb252615b1c78a6b1a8c"
-  integrity sha512-7evsyfH1cLOCdAzZAd43Cic04yKydNx0cF+7tiA19p1XnLLPU4dpCQOqpjqwokFe//vS0QqfqqjCS2JkiIs0cA==
+acorn-walk@^7.0.0:
+  version "7.0.0"
+  resolved "https://registry.yarnpkg.com/acorn-walk/-/acorn-walk-7.0.0.tgz#c8ba6f0f1aac4b0a9e32d1f0af12be769528f36b"
+  integrity sha512-7Bv1We7ZGuU79zZbb6rRqcpxo3OY+zrdtloZWoyD8fmGX+FeXRjE+iuGkZjSXLVovLzrsvMGMy0EkwA0E0umxg==
 
 acorn@^3.0.4:
   version "3.3.0"
@@ -1124,7 +1119,7 @@ acorn@^5.5.0:
   resolved "https://registry.yarnpkg.com/acorn/-/acorn-5.7.3.tgz#67aa231bf8812974b85235a96771eb6bd07ea279"
   integrity sha512-T/zvzYRfbVojPWahDsE5evJdHb3oJoQfFbsrKM7w5Zcs++Tr257tia3BmMP8XYVjp1S9RZXQMh7gao96BlqZOw==
 
-acorn@^6.0.5, acorn@^6.2.1:
+acorn@^6.2.1:
   version "6.3.0"
   resolved "https://registry.yarnpkg.com/acorn/-/acorn-6.3.0.tgz#0087509119ffa4fc0a0041d1e93a417e68cb856e"
   integrity sha512-/czfa8BwS88b9gWQVhc8eknunSA2DoJpJyTQkhheIf5E48u1N0R4q/YxxsAeqRrmK9TQ/uYfgLDfZo91UlANIA==
@@ -2651,6 +2646,11 @@ commander@^2.16.0, commander@^2.2.0, commander@^2.20.0, commander@^2.8.1:
   version "2.20.0"
   resolved "https://registry.yarnpkg.com/commander/-/commander-2.20.0.tgz#d58bb2b5c1ee8f87b0d340027e9e94e222c5a422"
   integrity sha512-7j2y+40w61zy6YC2iRNpUe/NwhNyoXrYpHMrSunaMG64nRnaf96zO/KMQR4OyN/UnE5KLyEBnKHd4aG3rskjpQ==
+
+commander@^3.0.1:
+  version "3.0.1"
+  resolved "https://registry.yarnpkg.com/commander/-/commander-3.0.1.tgz#4595aec3530525e671fb6f85fb173df8ff8bf57a"
+  integrity sha512-UNgvDd+csKdc9GD4zjtkHKQbT8Aspt2jCBqNSPp53vAS0L1tS9sXB2TCEOPHJ7kt9bN/niWkYj8T3RQSoMXdSQ==
 
 commander@~2.14.1:
   version "2.14.1"
@@ -7307,16 +7307,15 @@ ng-annotate-loader@^0.6.1:
     normalize-path "2.0.1"
     source-map "0.5.6"
 
-ng-annotate-patched@^1.10.0:
-  version "1.10.0"
-  resolved "https://registry.yarnpkg.com/ng-annotate-patched/-/ng-annotate-patched-1.10.0.tgz#127c73bec4ab79a66e31920fec378a694102d8b3"
-  integrity sha512-R0mcergG/aYSVF0sag7uFN2Mn+E9RZc3nfU+uB/aYmySreeya33Tx5/u2PuKjHt8Q8Kg+6duZVyJzrEtJHawEA==
+ng-annotate-patched@^1.11.1:
+  version "1.11.1"
+  resolved "https://registry.yarnpkg.com/ng-annotate-patched/-/ng-annotate-patched-1.11.1.tgz#28e97cdee3037e29c446cd5b966be6d3d9b1e51f"
+  integrity sha512-DmReqLu/cAdnXt7d0NpLC1hEDUH2z1CGs5ymQCjHd5+eAvWfkTl0k17pdFc0/C/EZRx+oed+4DJ7TsRILQVLUQ==
   dependencies:
-    acorn "^6.0.5"
-    acorn-dynamic-import "^4.0.0"
-    acorn-walk "^6.1.1"
+    acorn "^7.0.0"
+    acorn-walk "^7.0.0"
+    commander "^3.0.1"
     convert-source-map "^1.1.2"
-    optimist "^0.6.1"
     source-map "^0.6.1"
 
 ng-annotate@1.2.1:
