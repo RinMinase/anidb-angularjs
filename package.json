@@ -25,6 +25,8 @@
     "setup-testing": "node src/assets/testing/nightwatch.conf.js"
   },
   "dependencies": {
+    "@firebase/app-types": "^0.4.3",
+    "@firebase/util": "^0.2.27",
     "@uirouter/angularjs": "^1.0.23",
     "angular": "1.7.8",
     "angular-animate": "^1.7.8",
