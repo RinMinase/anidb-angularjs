@@ -78,7 +78,7 @@
     "ng-annotate-loader": "^0.6.1",
     "ng-annotate-patched": "^1.11.1",
     "ngtemplate-loader": "^2.0.1",
-    "nightwatch": "^1.2.4",
+    "nightwatch": "^1.3.0",
     "undertaker-forward-reference": "^1.0.2",
     "webpack": "^4.41.2",
     "webpack-stream": "^5.2.1"
