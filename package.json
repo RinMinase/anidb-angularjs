@@ -52,7 +52,7 @@
     "babel-loader": "8.0.6",
     "browser-sync": "^2.26.7",
     "browser-sync-spa": "^1.0.3",
-    "chromedriver": "^78.0.1",
+    "chromedriver": "^79.0.0",
     "cordova-android": "^8.1.0",
     "cordova-plugin-whitelist": "^1.3.4",
     "dotenv": "^8.2.0",
