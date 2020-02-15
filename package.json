@@ -41,6 +41,7 @@
     "lodash": "^4.17.15",
     "moment-mini": "^2.22.1",
     "oclazyload": "^1.1.0",
+    "popper.js": "^1.16.0",
     "roboto-fontface": "^0.10.0",
     "ui-bootstrap4": "^3.0.6",
     "velocity-animate": "^1.5.2",
