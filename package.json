@@ -85,8 +85,10 @@
     "webpack-stream": "^5.2.1"
   },
   "resolutions": {
+    "**/acorn": "^7.0.0",
     "**/angular": "^1.7.9",
     "**/jquery": "^3.4.1",
+    "**/minimist": "^1.2.2",
     "**/popper.js": "^1.16.0"
   },
   "engines": {
