@@ -38,7 +38,6 @@
     "firebase": "^7.15.0",
     "font-awesome": "^4.7.0",
     "fuse.js": "^3.4.6",
-    "jquery": "^3.4.1",
     "lodash": "^4.17.15",
     "moment-mini": "^2.24.0",
     "oclazyload": "^1.1.0",
@@ -77,6 +76,7 @@
     "gulp-sass-lint": "^1.4.0",
     "gulp-useref": "^4.0.1",
     "html-loader": "^0.5.5",
+    "jquery": "^3.4.1",
     "ng-annotate-loader": "^0.6.1",
     "ng-annotate-patched": "^1.12.0",
     "ngtemplate-loader": "^2.0.1",
@@ -86,11 +86,7 @@
     "webpack-stream": "^5.2.1"
   },
   "resolutions": {
-    "**/acorn": "^7.0.0",
-    "**/angular": "^1.7.9",
-    "**/jquery": "^3.4.1",
-    "**/minimist": "^1.2.2",
-    "**/popper.js": "^1.16.0"
+    "**/minimist": "^1.2.2"
   },
   "engines": {
     "node": "^8.10.0 || >=9.10.0",
