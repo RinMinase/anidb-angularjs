@@ -12,7 +12,6 @@
   },
   "main": "index.js",
   "scripts": {
-    "gulp": "gulp",
     "start": "gulp serve",
     "start-prod": "gulp serve:dist",
     "build": "gulp build",
