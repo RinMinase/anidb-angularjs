@@ -8135,10 +8135,10 @@ next-tick@~1.0.0:
   resolved "https://registry.yarnpkg.com/next-tick/-/next-tick-1.0.0.tgz#ca86d1fe8828169b0120208e3dc8424b9db8342c"
   integrity sha1-yobR/ogoFpsBICCOPchCS524NCw=
 
-ng-annotate-loader@^0.6.1:
-  version "0.6.1"
-  resolved "https://registry.yarnpkg.com/ng-annotate-loader/-/ng-annotate-loader-0.6.1.tgz#e9b7b7a1562b9c79737d50886d558de7f0df4257"
-  integrity sha1-6be3oVYrnHlzfVCIbVWN5/DfQlc=
+ng-annotate-loader@^0.7.0:
+  version "0.7.0"
+  resolved "https://registry.yarnpkg.com/ng-annotate-loader/-/ng-annotate-loader-0.7.0.tgz#f8d37b8846384bd7a28587299c3f040dfe147494"
+  integrity sha512-pvW5jwoUFcsUwAF3jHAc5hnU9bNTggg7YES5rMmv4WvhEsn/p2zEMmwXQOYCvDlwZpRNb7XDnaXHs0cT9qvhNg==
   dependencies:
     clone "^2.1.1"
     loader-utils "1.1.0"
