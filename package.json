@@ -47,8 +47,8 @@
     "xlsx": "^0.16.3"
   },
   "devDependencies": {
-    "@babel/core": "^7.10.2",
-    "@babel/preset-env": "^7.10.2",
+    "@babel/core": "^7.10.5",
+    "@babel/preset-env": "^7.10.4",
     "babel-loader": "8.1.0",
     "browser-sync": "^2.26.7",
     "browser-sync-spa": "^1.0.3",
